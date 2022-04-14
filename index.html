@@ -397,6 +397,55 @@
             <use href="./images/sprite.svg#icon-close"></use>
           </svg>
         </button>
+        <form class="contact-form">
+          <p class="modal-tittle">Оставьте свои данные, мы вам перезвоним</p>
+          <div class="contact-form-input-wrapper">
+            <input name="user-name" class="contact-form-input" type="text" placeholder=" " />
+            <label class="contact-form-label1">
+              <svg class="contact-form-icon" width="20" height="20">
+                <use href="./images/sprite.svg#icon-person"></use>
+              </svg>
+              <span>Имя</span>
+            </label>
+          </div>
+
+          <div class="contact-form-input-wrapper">
+            <input name="user-tel" class="contact-form-input" type="tel" placeholder=" " />
+            <label class="contact-form-label1">
+              <svg class="contact-form-icon" width="20" height="20">
+                <use href="./images/sprite.svg#icon-phone"></use>
+              </svg>
+              <span>Телефон</span>
+            </label>
+          </div>
+          <div class="contact-form-input-wrapper">
+            <input name="user-tel" class="contact-form-input" type="tel" placeholder=" " />
+            <label class="contact-form-label1">
+              <svg class="contact-form-icon" width="20" height="20">
+                <use href="./images/sprite.svg#icon-mail"></use>
+              </svg>
+              <span>Почта</span>
+            </label>
+          </div>
+          <div class="contact-form-input-wrapper">
+            <textarea
+              name="user-message"
+              class="contact-form-message"
+              name="form"
+              placeholder=" "
+              id="message"
+            ></textarea>
+            <label class="contact-form-label" for="message">Оставьте коментарий</label>
+          </div>
+          <div class="contact-checkbox-wraper">
+            <input name="private-policy" type="checkbox" class="contact-form-checkbox" required />
+            <label for="" class="contact-checkbox-label">
+              Соглашаюсь с рассылкой и принимаю
+              <a href="" class="checkbox-link"> Условия договора</a>
+            </label>
+          </div>
+          <button class="contact-button" type="submit" class="contact-submit">Отправить</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
